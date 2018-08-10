@@ -1,0 +1,48 @@
+{
+	"name": "run-electron",
+	"version": "0.0.0",
+	"description": "Run Electron without all the junk terminal output",
+	"license": "MIT",
+	"repository": "sindresorhus/run-electron",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"bin": {
+		"run-electron": "cli.js"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"electron",
+		"run",
+		"terminal",
+		"filter",
+		"output",
+		"clean",
+		"stdout",
+		"stderr"
+	],
+	"dependencies": {
+		"pumpify": "^1.5.1",
+		"split2": "^2.2.0",
+		"through2-filter": "^3.0.0",
+		"through2-map": "^3.0.0"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"electron": "^2.0.7",
+		"execa": "^0.10.0",
+		"xo": "*"
+	}
+}
