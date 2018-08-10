@@ -1,6 +1,6 @@
 {
 	"name": "run-electron",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "Run Electron without all the junk terminal output",
 	"license": "MIT",
 	"repository": "sindresorhus/run-electron",
