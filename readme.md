@@ -4,7 +4,7 @@
 
 Electron spews out a lot of junk terminal output when you run it. No more!
 
-I have tried to get the Electron team to fix this, but they are not responding to [my issue](https://github.com/electron/electron/issues/12438), nor any others: [electron/electron#12185](https://github.com/electron/electron/issues/12185), [electron/electron#13502](https://github.com/electron/electron/issues/13502).
+I have tried to get the Electron team to fix this, but they are not responding to [my issue](https://github.com/electron/electron/issues/12438), nor any others: [electron/electron#12185](https://github.com/electron/electron/issues/12185), [electron/electron#13008](https://github.com/electron/electron/issues/13008), [electron/electron#13502](https://github.com/electron/electron/issues/13502).
 
 ###### Before
 
