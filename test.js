@@ -1,7 +1,7 @@
 import test from 'ava';
 import execa from 'execa';
 
-test('main', async t => {
+test('it keeps single line strings', async t => {
 	const {stdout, stderr} = await execa('./cli.js', ['fixture-single-line.js']);
 	t.is(stdout.trim(), '🦄');
 	t.is(stderr.trim(), '');
