@@ -21,6 +21,11 @@ const removeJunk = () => {
 			return false;
 		}
 
+		// Example: ALSA lib confmisc.c:767:(parse_card) cannot find card '0'
+		if (/ALSA lib [a-z]+\.c:\d+:\([a-z_]+\)/.test(chunk)) {
+			return false;
+		}
+
 		return true;
 	});
 
