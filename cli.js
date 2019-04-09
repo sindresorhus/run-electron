@@ -24,7 +24,7 @@ const removeJunk = () => {
 		return true;
 	});
 
-	return pumpify(split(), filterStream, map(chunk => `${chunk}\n`));
+	return pumpify(split(), map(chunk => `${chunk}\n`), filterStream);
 };
 
 const cp = spawn(electron, process.argv.slice(2));
