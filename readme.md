@@ -1,4 +1,4 @@
-# run-electron [![Build Status](https://travis-ci.com/sindresorhus/run-electron.svg?branch=master)](https://travis-ci.com/sindresorhus/run-electron)
+# run-electron
 
 > Run Electron without all the junk terminal output
 
