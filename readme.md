@@ -8,7 +8,7 @@ I have tried to get the Electron team to fix this, but they are not responding t
 
 ###### Before
 
-```
+```console
 $ electron .
 2018-08-10 22:52:14.068 Electron[90710:4891777] *** WARNING: Textured window <AtomNSWindow: 0x7fd508e75020> is getting an implicitly transparent titlebar. This will break when linking against newer SDKs. Use NSWindow's -titlebarAppearsTransparent=YES instead.
 2018-08-10 22:52:37.919 Electron Helper[90714:4892173] Couldn't set selectedTextBackgroundColor from default ()
@@ -26,29 +26,26 @@ App logging
 
 ###### After
 
-```
+```console
 $ run-electron .
 App logging
 ```
 
-
 ## Install
 
-```
-$ npm install run-electron electron
+```sh
+npm install run-electron electron
 ```
 
 *Note: Electron is not bundled in this package.*
-
 
 ## Usage
 
 Just use it like it's `electron`.
 
+```sh
+run-electron --help
 ```
-$ run-electron --help
-```
-
 
 ## Related
 
@@ -57,8 +54,3 @@ $ run-electron --help
 - [electron-reloader](https://github.com/sindresorhus/electron-reloader) - Simple auto-reloading for Electron apps during development
 - [electron-debug](https://github.com/sindresorhus/electron-debug) - Adds useful debug features to your Electron app
 - [More…](https://github.com/search?q=user%3Asindresorhus+electron-&type=Repositories)
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
